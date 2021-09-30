@@ -1,0 +1,9 @@
+name=input('Введите имя: ')
+surname=input('Введите фамилию: ')
+date=int(input('Введите год рождения: '))
+print(name, surname, date, sep='_')
+x=surname
+surname=name
+name=x
+date+=60
+print(name, surname, date, sep='_')
